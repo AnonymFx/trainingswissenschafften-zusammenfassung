@@ -59,16 +59,16 @@ Definition: Ermüdungswiderstandsfähigkeit (konditionell & informationell) & Re
 |                      | Intensiv                     | Extensiv                         |
 |----------------------|------------------------------|----------------------------------|
 | Energiespeicher      | Phosphat                     | Glykogen                         |
-|----------------------|------------------------------|----------------------------------|
+
 | Enzymaktivityät      | Phosphatstoffwechsel         | Kohlenhydrat- &                  |
 |                      | Laktatabbau & -toleranz      | Fettstoffwechsel                 |
-|----------------------|------------------------------|----------------------------------|
+
 | Muskulatur           | vortriebrelevante Muskulatur | Haltearbeit verrichtete          |
 |                      |                              | Muskulatur                       |
-|----------------------|------------------------------|----------------------------------|
+
 | Sauerstoffversorgung | Schlagvolumen, Kapillarisierung der Arbeitsmuskulatur, Blutmenge|
-|----------------------|-----------------------------------------------------------------|
+
 | Qualität der Technik | Bewegungsökonomie                                               |
-|----------------------|-----------------------------------------------------------------|
+
 | Psychische Eigensch. | Durchhaltevermögen, "Stehvermögen", "mentale Härte"             |
 
