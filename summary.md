@@ -29,6 +29,10 @@ im und durch Sport.
 Definition: Ermüdungswiderstandsfähigkeit (konditionell & informationell) & Regenerationsfähigkeit
 
 ## Systematik
+### Belastungsdauer
 * Kurzzeitausdauer (<35s)
 * Mittelzeit-Ausdauer(35s - 8min)
 * Langzeitausdauer (> 8min): LZA I: 8-30min, LZA II: 30min - 3h, LZA III: 3-9h, LZA IV: >9h
+
+### Allgemeine vs spezielle Ausdauer
+
