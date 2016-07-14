@@ -53,7 +53,8 @@ Definition: Ermüdungswiderstandsfähigkeit (konditionell & informationell) & Re
     - alaktazid
     - laktazid
     - aerob
-<!-- TODO: chemischer Prozess? + Exkurs Laktatbildung -->
+[//]: # (chemischer Prozess? + Exkurs Laktatbildung).
+<!--- TODO: 
 
 ## Determinanten der Ausdauer
 |                      | Intensiv                                                         | Extensiv                           |
