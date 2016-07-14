@@ -35,4 +35,32 @@ Definition: Ermüdungswiderstandsfähigkeit (konditionell & informationell) & Re
 * Langzeitausdauer (> 8min): LZA I: 8-30min, LZA II: 30min - 3h, LZA III: 3-9h, LZA IV: >9h
 
 ### Allgemeine vs spezielle Ausdauer
+* Allgemeine Ausdauer: Grundlage für Regeneration, Training & Erholung und Voraussetzung für spezielles Training
+* Spezielle Ausdauer: Wettkampfspezifische Ausdauer-Anforderungen (wichtiger für sportlichen Erfolg)
+
+#### KsA: Koeffizient der speziellen Ausdauer
+= durchschnittliche 100m-Zeit obere Nachbarstrecke / durchschnittliche 100m-Zeit untere Nachbarstrecke
+
+### Energiebereitstellung
+#### Mechanismen
+* Systematik: Je nach Dauer und Intensität der Belastung wird Energie aus verschiedenen Substanzen gewonnen.
+* Energiegewinnung aus Substrat:
+    - Energiefluss: Rate, mit der Energie zur Verfügung gestellt werden kann.
+    - Kapazität: Energievorrat
+* Problem: Maximale Energie nur kurzfristig verfügbar
+    - Dauerleistungsgrenze: ca 40%
+* Energiearten
+    - alaktazid
+    - laktazid
+    - aerob
+[//]: TODO: chemischer Prozess? + Exkurs Laktatbildung
+
+## Determinanten der Ausdauer
+|                      | Intensiv                     | Extensiv                         |
+|----------------------|------------------------------|----------------------------------|
+| Energiespeicher      | Phosphat                     | Glykogen                         |
+| Enzymaktivityät      | Phosphatstoffwechsel         | Kohlenhydrat- &                  |
+|                      | Laktatabbau & -toleranz      | Fettstoffwechsel                 |
+| Muskulatur           | vortriebrelevante Muskulatur | Haltearbeit verrichtete          |
+|                      |                              | Muskulatur                       |
 
