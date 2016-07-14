@@ -56,14 +56,21 @@ Definition: Ermüdungswiderstandsfähigkeit (konditionell & informationell) & Re
 [//]: TODO: chemischer Prozess? + Exkurs Laktatbildung
 
 ## Determinanten der Ausdauer
-|                      | Intensiv                     | Extensiv                         |
-|----------------------|------------------------------|----------------------------------|
-| Energiespeicher      | Phosphat                     | Glykogen                         |
-| Enzymaktivityät      | Phosphatstoffwechsel         | Kohlenhydrat- &                  |
-|                      | Laktatabbau & -toleranz      | Fettstoffwechsel                 |
-| Muskulatur           | vortriebrelevante Muskulatur | Haltearbeit verrichtete          |
-|                      |                              | Muskulatur                       |
-| Sauerstoffversorgung | Schlagvolumen, Kapillarisierung der Arbeitsmuskulatur, Blutmenge|
-| Qualität der Technik | Bewegungsökonomie                                               |
-| Psychische Eigensch. | Durchhaltevermögen, "Stehvermögen", "mentale Härte"             |
+|                      | Intensiv                                                         | Extensiv                           |
+|----------------------|------------------------------------------------------------------|------------------------------------|
+| Energiespeicher      | Phosphat                                                         | Glykogen                           |
+| Enzymaktivityät      | Phosphatstoffwechsel<br>Laktatabbau & -toleranz                  | Kohlenhydrat- & Fettstoffwechsel   |
+| Muskulatur           | vortriebrelevante Muskulatur                                     | Haltearbeit verrichtete Muskulatur |
+| Sauerstoffversorgung | Schlagvolumen, Kapillarisierung der Arbeitsmuskulatur, Blutmenge | siehe links                        |
+| Qualität der Technik | Bewegungsökonomie                                                | siehe links                        |
+| Psychische Eigensch. | Durchhaltevermögen, "Stehvermögen", "mentale Härte"              | siehe links                        |
+
+## Herz-Kreislauf
+* Maximale Sauerstoffaufnahme 
+    - Normale Werte: 38-42 ml O2/(min*kg) (Frauen) und 44-50 ml O2/(min * kg)
+    - Spitzensportler: ca doppelte Werte
+* Herzminutenvolumen (abhängig von Herzvolumen & Belastungsherzfrequenz)
+    - untrainiert: 20 l/min
+    - trainiert: 40 l/min
+* Blut (abhängig von Blutmenge & Sauerstoffbindungsfähigkeit)
 
