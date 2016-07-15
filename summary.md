@@ -67,10 +67,29 @@ Definition: Ermüdungswiderstandsfähigkeit (konditionell & informationell) & Re
 
 ## Herz-Kreislauf
 * Maximale Sauerstoffaufnahme 
-    - Normale Werte: 38-42 ml O2/(min*kg) (Frauen) und 44-50 ml O2/(min * kg)
+    - Normale Werte: 38-42 ml O2/(min x kg) (Frauen) und 44-50 ml O2/(min x kg)
     - Spitzensportler: ca doppelte Werte
 * Herzminutenvolumen (abhängig von Herzvolumen & Belastungsherzfrequenz)
     - untrainiert: 20 l/min
     - trainiert: 40 l/min
 * Blut (abhängig von Blutmenge & Sauerstoffbindungsfähigkeit)
 
+## Methoden nach Trainingsbereichen
+| Trainingsbereich              | Primäres Ziel                                                                   | Methode                |
+|-------------------------------|---------------------------------------------------------------------------------|------------------------|
+| Regeneration                  | Regenerationsbeschleunigung                                                     | Extensive Dauermethode |
+| Grundlagenausdauer 1          | Ausdauerfähigkeit niedriger Intensitätsbereich                                  | Intensive Dauermethode |
+| Grundlagenausdauer 2          | Ausdauerfähigkeit hoher Intensitätsbereich und physiol. Kapazitätserweiterungen | Intervallmethoden      |
+| Wettkampfspezifische Ausdauer | Ausdauerfähigkeit im Wettkampfbereich                                           | Wettkampfmethode       |
+
+## Belastungsmotive im Ausdauertraining
+* Intensität: Stärke eines Einzelreizes
+* Dauer: Wirkungsdauer eines Einzelreizes
+* Umfang: Dauer & Zahl der Reize/Trainingseinheit
+* Dichte: Zeitliches Verhältnis zwischen Belastungs- und Erholungsphasen
+* Häufigkeit: Zahl der Trainingseinheiten pro Trainingszeitraum
+
+## Methoden im Überblick
+* Dauermethode: Ununterbrochene Dauerbelastung mit geringer intensität und keinen Pausen
+    - Extensiv: Intensität unterhalb der AS (?) & Dauer von 20-60min oder mehr.<br>
+                Intension: Rechtsverschiebung der AS, Hoher Energieverbrauch, Regeneration, Gewöhnung an Belastungsmonotonie

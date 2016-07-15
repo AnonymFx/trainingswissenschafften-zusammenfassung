@@ -1,2 +1,16 @@
 # vim swap files
 *.swp
+
+# pdf files
+*.pdf
+
+# latex files
+*.aux
+*.pdf
+*.run.xml
+*.toc
+*.out
+*.log
+*.bcf
+*.blg
+*.bbl
