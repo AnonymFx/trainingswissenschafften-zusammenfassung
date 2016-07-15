@@ -18,4 +18,4 @@
 *.bbl
 
 build/*
-!tumlogo.pdf
+!pictures/*
