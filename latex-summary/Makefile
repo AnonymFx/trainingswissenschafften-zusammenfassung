@@ -3,14 +3,14 @@ TEXSOURCES := $(wildcard *.tex) $(wildcard */*.tex)
 BIBSOURCES := $(wildcard *.bib) $(wildcard */*.bib) 
 BBLFILES := $(subst bib,bbl,$(BIBSOURCES))
 
-all: build/$(MAINFILE).pdf
+all: $(MAINFILE).pdf
 
 clean:
 	find . | egrep ".*(\.(aux|idx|ind|ilg|log|blg|bbl|toc|lof|lot|dvi|tlf|tlt|out|run\.xml|bcf))$$" | xargs rm
 
 $(MAINFILE).pdf: $(MAINFILE).tex $(TEXSOURCES) $(BBLFILES)
-	pdflatex $(MAINFILE)
+	pdflatex $(MAINFILE) build/$(MAINFILE).pdf
 
 $(BBLFILES): %.bbl: %.bib
-	pdflatex $(MAINFILE)
-	biber $(MAINFILE)
+	pdflatex build/$(MAINFILE)
+	biber build/$(MAINFILE)
