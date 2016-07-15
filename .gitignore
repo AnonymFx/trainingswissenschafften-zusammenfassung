@@ -1,4 +1,3 @@
-!tumlogo.pdf
 *.sublime*
 
 # vim swap files
@@ -19,3 +18,4 @@
 *.bbl
 
 build/*
+!tumlogo.pdf
