@@ -1,16 +1,12 @@
 MAINFILE := report
 TEXSOURCES := $(wildcard *.tex) $(wildcard */*.tex)
-BIBSOURCES := $(wildcard *.bib) $(wildcard */*.bib) 
+BIBSOURCES := $(wildcard *.bib) $(wildcard */*.bib)
 BBLFILES := $(subst bib,bbl,$(BIBSOURCES))
 
 all: $(MAINFILE).pdf
 
 clean:
-	find . | egrep ".*(\.(aux|idx|ind|ilg|log|blg|bbl|toc|lof|lot|dvi|tlf|tlt|out|run\.xml|bcf))$$" | xargs rm
+	rm build/*
 
 $(MAINFILE).pdf: $(MAINFILE).tex $(TEXSOURCES) $(BBLFILES)
-	pdflatex $(MAINFILE) build/$(MAINFILE).pdf
-
-$(BBLFILES): %.bbl: %.bib
-	pdflatex build/$(MAINFILE)
-	biber build/$(MAINFILE)
+	pdflatex -output-directory=build $(MAINFILE) build/$(MAINFILE).pdf
