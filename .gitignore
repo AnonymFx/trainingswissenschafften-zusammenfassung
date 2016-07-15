@@ -1,3 +1,6 @@
+!tumlogo.pdf
+*.sublime*
+
 # vim swap files
 *.swp
 
@@ -14,3 +17,5 @@
 *.bcf
 *.blg
 *.bbl
+
+build/*
