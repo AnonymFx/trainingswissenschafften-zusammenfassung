@@ -3,12 +3,23 @@
 from re import sub
 
 inp = """
-• Freiheitsgrade:
-Sukzessives Freisetzen, „selective defrosting“
-• Gestalt:
-flüssige, lockere Bewegung, Kombinationen
-• Methodik:
-Intensive Rückmeldungen, große Wiederholungszahlen
+•
+Kulturell-erzieherische Funktion
+– Fair-Play, Aneignung von
+Charaktereigenschaften
+•
+Soziale Funktion
+– Ausbildung von Zusammengehörigkeitsgefühl
+•
+Kommerzielle Funktion
+– Profisport, materieller Gewinn
+•
+Unterhaltungsfunktion
+– Medienunternehmen
+•
+Politische Funktion
+– Z.B. Symbolcharakter für die
+Leistungsfähigkeit einer Nation
 """
 
 inp = inp.replace('\n', '')
@@ -18,6 +29,6 @@ print(inp)
 
 
 inp = inp.replace('•', '\n\item ')
-inp = inp.replace('–', ',')
+inp = inp.replace('–', ': ')
 
 print(inp)
