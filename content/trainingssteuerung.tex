@@ -88,3 +88,58 @@ Es gibt drei verschiedene Arten von Diagnositken:
       \includegraphics[width=.7\textwidth]{pictures/trainingssteuerung_trainingsdiagnostik_komponenten.png}
     \end{figure}
 \end{itemize}
+
+\subsection{Fitness-Fatigue-Modell}
+Das Fitness-Fatigue-Modell beschreibt die Prognose und Leistungsentwicklung im Bezug auf die Trainingsbelastung.
+Es besteht aus zwei antagonistischen Effekten des Trainings.
+Die \textbf{Fitness} sind die resultierenden leistungssteigernden Effekte aus dem Training, die durch Anpassungen des Körpers hervorgerufen werden.
+Die Ermüdung (\textbf{Fatigue}) repräsentiert die temporäre Ermüdung nach dem Training.
+Aus diesen beiden Faktoren ergibt sich der aktuelle individuelle Leistungszustand.
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=.7\textwidth]{pictures/trainingssteuerung_ffm_trainingsfunction.png}
+\end{figure}
+\begin{description}
+  \item[w(t)] beschreibt den Trainingsreiz zum Zeitpunkt t\\
+    TRIMP (Trainings Impuls) = Umfang (Dauer, Anzahl,\ldots) $\cdot$ Intensität (Herzfrequenz, Laktat, V02,\ldots)\\
+    Beispiel: 6km $\cdot$ 70\% = 420 TRIMS
+  \item[f(t)] beschreiben den leistungssteigernden Effekt des Reizes zum Zeitpunkt t\\
+    $\Delta f_i(t)=k_1 \cdot w_i \cdot e^{\frac{-(t-t_i)}{T1}}$ für $t\geq t_i$, $\Delta f_i(t)=0$ else\\
+    $k_1$ = wie hoch ist der leistungssteigernde Effekt\\
+    T1 = wie lange hält der leistungssteigernde Effekt an
+  \item[p(t)] beschreiben den Ermüdungseffekt des Reizes zum Zeitpunkt t\\
+    $\Delta p_i(t)=k_2 \cdot w_i \cdot e^{\frac{-(t-t_i)}{T2}}$ für $t\geq t_i$, $\Delta p_i(t)=0$ else\\
+    $k_2$ = wie hoch ist der Ermüdungseffekt\\
+    T2 = wie lange hält der Ermüdungseffekt an
+  \item[a(t)] beschreibt den Leistungszustand zum Zeitpunkt t\\
+    $\Delta a_i(t)=\Delta f_i(t) - \Delta p_i(t)$
+\end{description}
+T1, T2, $k_1$ und $k_2$ können individuell angepasst werden.
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{.45\textwidth}
+    \includegraphics[width=\textwidth]{pictures/trainingssteuerung_fitnessfunktion.png}
+    \caption{Fitnessfunktion}
+  \end{subfigure}
+  \begin{subfigure}{.45\textwidth}
+    \includegraphics[width=\textwidth]{pictures/trainingssteuerung_fatiguefunktion.png}
+    \caption{Fatiguefunktion}
+  \end{subfigure}
+  \begin{subfigure}{\textwidth}
+    \includegraphics[width=\textwidth]{pictures/trainingssteuerung_leistungsfunktion.png}
+    \caption{Leistungsfunktion}
+  \end{subfigure}
+\end{figure}
+\textbf{Vorteile}
+  \begin{itemize}
+    \item Simulation auf Basis des
+    \item Superkompensationsmodells möglich
+  \end{itemize}
+\textbf{Nachteile}
+  \begin{itemize}
+    \item Indexbildung über mehrere, unterschiedliche Reize
+    \item Keine Erfassung unterschiedlicher Verzögerungen
+    \item Keine Erfassung der Wechselwirkung
+    \item Präzision der Zeitangaben?
+    \item Im Wesentlichen für mks-Sportarten
+  \end{itemize}
