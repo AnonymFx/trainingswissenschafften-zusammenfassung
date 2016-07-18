@@ -21,3 +21,29 @@ PLD diagnostiziert die Wettkampfleistung und den Leistungszustand von Mannschaft
 PLD ergängzt die Methoden von TLD mit qualitativen Analyzen von Einzelfällen.
 Die Unterschiede von TLD und PLD liegen vorallem darin, dass sich PLD eher mit Einzelfällen und TLD eher für allgemeine, statistische Aussagen interessiert.
 Die beiden Methoden beeinflussen sich allerdings: TLD generiert Hintergrundwissen für PLD und PLD liefert die VOrgaben für TLD (Hypothesen, Inspiration für Modelle).
+
+\subsection{Leistungsdiagnostik in Sportspielen}
+Sportspiele sind Sportarten mit international kodifiziertem Regelwerk, bei denen zwei Parteien in einen Interaktionsprozess eintreten, der dadurch zustande kommt, dass beide Parteien gleichzeitig ihr eigenes Spielziel anstreben und verhindern wollen, dass die gegnerische Partei ihr Spielziel erreicht; das Spielziel in den Sportspielen ist eine in den Regeln festgelegte, symbolische Handlung.
+\paragraph{Problem} Das sichtbare Verhalten in Sportspielen lässt nicht direkt auf die zugrundeliegenden Leistungsvoraussetztungen schließen.
+Außerdem ist das Verhalten dynamisch, d.h.\ zeitlich vergänglich, was Modellierung schwieriger macht.
+\paragraph{Dynamische Systemtheorie} Klasse von Modellen, mit denen versucht wird, die Komplexität, Veränderungen in der Zeit (Dynamik) und interne Wechselwirkungen von Systemen abzubilden.\\
+Grundbegriffe:\\
+\begin{itemize}
+  \item Zustandsraum: Menge der Zustände, die ein System einnehmen kann
+  \item Attraktoren: Häufig aufgesuchte Punkte in einem Zustandsraum, Punkte mit Anziehungskraft
+  \item Kontrollparameter: Variablen, die das System durch den Zustandsraum treiben
+  \item Systemdynamik: Beschreibung des Systemverhaltens in der Zeit
+\end{itemize}
+\paragraph{Markov-Ketten Modellierung} bringt eine gute Beschreibung in vielen Sportspielen und hat eine gute Anwendung in Simulationen der TLD.\@
+\paragraph{Random-Walk Modellierung}
+In vielen Spielsportarten haben wir alternierenden Ballbesitz (Handball, Basketball, Fussball?).
+Der Ballbesitz endet entweder mit Tor oder Kein Tor: Zufallsexperiment.
+Eine Folge von Zufallsexperimenten, deren Ergebnisse aufaddiert werden, nennt man einen Random Walk.
+Ein Handballspiel kann modelliert werden als zwei parallel laufende Random Walks.\\
+\textbf{Modellierung:}\\
+\begin{enumerate}[nolistsep,noitemsep]
+  \vspace{-1em}
+  \item Berechne die momentane Spielstärke mit einem Moving Average über 4 Moving Averages über den Erfolg in 4 Ballbesitzen
+  \item Vergleiche die momentane Spielstärke der beiden Mannschaften: unabhängiger, positiv (direkt proportionaler oder negativer (indirekt proportionaler) Zusammenhang
+  \item Berechne die momentane Korrelation zwischen den beiden momentanen Spielstärken und überprüfe die Ergebnisse aus 2.
+\end{enumerate}
